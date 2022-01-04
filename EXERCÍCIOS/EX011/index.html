@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens que se adaptam</title>
+    <h1>Imagem que se adapta de acordo com o tamanho da tela</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes, ou simplesmente aumente e diminue o tamanho do seu navegador!</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png">
+        <source media="(max-width:1030px )" srcset="imagens/foto-m.png"type=>
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+        <!--A ORDEM DAS TAGS TEM QUE SER RESPEITADA, DO MAIOR PARA O MENOR!-->
+    </picture>
+    <h1>Reproduzindo áudios</h1>
+    <p>vamos aprender a reproduzir áudios no navegador usando HTML</p>
+    <audio preload="metadata" controls autoplay>
+        <source src="happy-mistake.mp3" type="audio/mpeg" > 
+    </audio>
+</head>
+<body>
+    
+</body>
+</html>

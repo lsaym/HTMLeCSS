@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Praise&display=swap');
+body{
+    background-color: rgb(148, 183, 236);
+    font-size: 1em;
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+}
+h1{
+    color: rgb(0, 0, 90);
+}
+#principal{
+    background-color: blue;
+    color: #ffffff;
+    text-align: center;
+    
+}
+h2{
+    color: rgb(64, 64, 241);
+}
+.titulo{
+    background-color: rgb(2, 151, 250);
+}

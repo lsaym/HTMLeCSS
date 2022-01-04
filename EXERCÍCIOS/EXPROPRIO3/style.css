@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+body {
+    background-image: linear-gradient(#0477BF, #03588C, #023859);
+    background-attachment: fixed;
+}
+main{
+    background-color: #ffffff;
+    padding: 20px;
+    width:  500px;
+    box-shadow: 10px 10px 10px #000000;
+    margin: auto;
+    border-radius:  10px;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+}
+img{ 
+    text-align: center;
+}
+h1 {
+font-family: 'Praise', cursive;font-size: 3em;
+text-shadow: 5px 5px 5px #0000;
+color: #ffffff;
+font-weight: normal;
+}
+h2{
+    font-family: 'Praise', cursive;
+    color: #ffffff;
+    font-weight: normal;
+}
