@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tag colgroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .nome, .idade {
+            background-color: rgb(195, 194, 194);
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        
+        <colgroup>
+            <col class="nome">
+            <col class="sexo">
+            <col class="idade">
+            <col class="prof">
+        </colgroup>
+        <tr>
+          <th>nome</th>
+          <th>sexo</th>
+          <th>idade</th>
+          <th>profissão</th>
+        </tr>
+        <tr>
+            <td>lucas</td>
+            <td>M</td>
+            <td>25</td>
+            <td>militar</td>
+        </tr><tr>
+            <td>denilza</td>
+            <td>F</td>
+            <td>53</td>
+            <td>professora</td>
+        </tr><tr>
+            <td>marcilio</td>
+            <td>M</td>
+            <td>55</td>
+            <td>mestre de obras</td>
+        </tr><tr>
+            <td>bruna</td>
+            <td>F</td>
+            <td>22</td>
+            <td>psicóloga</td>
+        </tr>
+    </table>
+</body>
+</html>
