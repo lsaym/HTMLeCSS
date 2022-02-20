@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+</head>
+<body>
+    <input type="number" name="cx1" id="cx1"> +
+    <input type="number" name="cx2" id="cx2">
+    <input type="button" value="Somar" onclick="soma()">
+    <div id="res"> Resultado</div>
+    <script>
+        function soma(){
+           var val1 = document.getElementById('cx1') //essa variável recebe o valor do primeiro input
+           var val2 = document.getElementById('cx2') // essa variável recebe o valor do segundo input
+           var s  = document.getElementById ('res') // essa variável recebe o valor da Div pra poder fazer a alteração quando a função for executada quando clicar com o botão.
+           var n1 = Number(val1.value) // faz a conversão dos valores do input de string para number para poder fazer a soma
+           var n2 = Number(val2.value)
+           var s = n1 + n2 // executando de fato a soma dos valor colocados na tela
+           res.innerHTML = `O resultado da soma entre ${n1} e ${n2} é  ${s} ` // esse comando substitue o que conteúdo do ID selecionado e mostra na tela depois que a função for executada.
+        }
+    </script>
+</body>
+</html>
