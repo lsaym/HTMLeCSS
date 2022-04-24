@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: darksalmon;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        .caixa{
+            width: 800px;
+            height: 400px;
+            background-color: white;
+            justify-content: center;
+            margin: auto;
+            margin-top: 80px;
+            border-radius: 8px;
+            box-shadow: 1px 1px 1px black;
+
+        }
+        input{ margin: auto;
+            margin-left: 300px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+   <div class="caixa">
+       <input type="number" name="cx1" id="cx1"> +
+       <input type="number" name="cx2" id="cx2">
+       <input type="button" value="Somar" onclick="soma()">
+       <div id="res">Resultado: </div>
+       <script>
+           function soma(){
+               var val1 = window.document.getElementById ('cx1')
+               var val2 = window.document.getElementById ('cx2')
+               var s =  window.document.getElementById ('res')
+               var n1 = Number(val1.value)
+               var n2 = Number(val2.value)
+               var s = n1+n2
+               res.innerText = `O Resultado da soma de ${n1} + ${n2} é igual a ${s}` 
+           }
+       </script>
+   </div>
+</body>
+</html>
