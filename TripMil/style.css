@@ -33,11 +33,16 @@ html, body{
     background-image: url(imagens/fundo2.jpg);
     background-size:cover;
     background-attachment:fixed;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 700;
 }
 .segunda-secao{
     padding: 100px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: 'Sarala', sans-serif;
 }
 .rodape{
     display: flex;
