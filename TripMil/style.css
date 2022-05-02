@@ -21,14 +21,38 @@ html, body{
 .cabecalho-imagem{
     height: 100px;
 }
-.menu{
-    display: flex;
-    gap: 32px;
-    text-decoration: none;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 700;
-    color: black;
+#menu{
+    width:35px;
+    height: 30px;
+    margin: 30px 0 2px 20px;
+    cursor: pointer; 
 }
+.bar{
+    height: 2px;
+    width: 100%;
+    background-color: blue;
+    display: block;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+#bar1{
+    transform: translateY(-4px);
+}
+#bar3{
+    transform: translateY(4px);
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+.nav li a:hover{
+    font-weight: bold;
+}
+.nav li {
+    list-style: none;
+    padding: 16px 0;
+}
+.nav
 .primeira-secao{
     background-image: url(imagens/fundo2.jpg);
     background-size:cover;
