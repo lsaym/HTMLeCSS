@@ -8,3 +8,5 @@ const soma=(...valores)=>{
     return somar(valores)
 }
 console.log(soma(10,5,15))
+
+
