@@ -20,6 +20,7 @@ button{
     background-color: black;
     cursor: pointer;
     border-radius: 6px;
+    margin: 5px;
 }
 .curso{
     height: 50px;
@@ -57,7 +58,7 @@ button{
     height: 500px;
     width: 300px;
 }
-#btn-copiar:hover{
+button:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
     transition: transform .3s;
