@@ -1,0 +1,8 @@
+@function color() {
+  @if (lightness($background-color) >50) {
+    @return black;
+  } @else {
+    @return white;
+  }
+}
+// falta código

@@ -1,0 +1,26 @@
+.btn {
+  width: 125px;
+  padding: 10px;
+  border-radius: 20px;
+  display: block;
+  margin: 10px;
+
+  &.btn-roxo {
+    background-color: purple;
+    color: white;
+  }
+  &.btn-amarelo {
+    background-color: rgb(244, 248, 3);
+    color: black;
+  }
+  &.btn-azul {
+    background-color: rgb(96, 59, 230);
+    color: white;
+  }
+}
+//usando o extend, para pegar as carateristicas da classe que eu quero, sem precisar atribuir a classe no item específico
+.btn-roxo {
+  @extend .btn;
+  background-color: purple;
+  color: white;
+}

@@ -1,0 +1,4 @@
+exemplo
+terminal
+
+sass "caminho do arquivo" --style compressed.
