@@ -6,7 +6,7 @@
 
 .texts {
   h1 {
-    @include text-style(#684, 70px, arial);
+    @include text-style(rgb(106, 160, 44), 70px, arial);
   }
 
   p {
